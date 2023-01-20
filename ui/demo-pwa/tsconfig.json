@@ -5,6 +5,7 @@
     "tsBuildInfoFile": ".tsbuildinfo",
     "rootDir": "src",
     "outDir": "build",
+    "noEmit": true,
     "plugins": [
       {
         "name": "ts-lit-plugin",
@@ -16,11 +17,8 @@
   "include": ["src/**/*.ts"],
   "exclude": [],
   "references": [
-    {"path": "../../core/logger"},
     {"path": "../../core/router"},
-    {"path": "../../core/i18n"},
     {"path": "../../ui/element"},
-    {"path": "../../ui/icon"},
     {"path": "../../ui/ui-kit"},
   ]
 }
