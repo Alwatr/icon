@@ -1,11 +1,12 @@
 {
-  "name": "@alwatr/router",
+  "name": "@alwatr/i18n2",
   "version": "0.32.0",
-  "description": "Elegant powerful router (fundamental advance browser page routing) based on the simplicity of the signals written in tiny TypeScript module.",
+  "description": "Elegant powerful translation module (i18n/l10n) with dynamic json storage written in tiny TypeScript, ES module.",
   "keywords": [
-    "router",
-    "route",
-    "routing",
+    "i18n",
+    "internationalization",
+    "l10n",
+    "localization",
     "typescript",
     "esm",
     "alwatr"
@@ -13,8 +14,9 @@
   "main": "index.js",
   "type": "module",
   "types": "index.d.ts",
-  "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
+  "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
   "license": "MIT",
+  "private": "true",
   "files": [
     "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
   ],
@@ -24,16 +26,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AliMD/alwatr",
-    "directory": "core/router"
+    "directory": "core/i18n"
   },
-  "homepage": "https://github.com/AliMD/alwatr/tree/main/core/router#readme",
+  "homepage": "https://github.com/AliMD/alwatr/tree/main/core/i18n#readme",
   "bugs": {
     "url": "https://github.com/AliMD/alwatr/issues"
   },
   "dependencies": {
     "@alwatr/logger": "^0.32.0",
     "@alwatr/math": "^0.32.0",
-    "@alwatr/signal": "^0.32.0",
+    "@alwatr/signal2": "^0.32.0",
     "tslib": "^2.5.3"
   },
   "devDependencies": {
