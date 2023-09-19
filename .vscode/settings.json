@@ -26,7 +26,8 @@
   ],
   "cSpell.language": "en,fa,fa-IR",
   "cSpell.words": [
-    "Alwatr"
+    "Alwatr",
+    "Fract"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "git.autoStash": true,
