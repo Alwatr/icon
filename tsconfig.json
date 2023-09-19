@@ -39,12 +39,12 @@
     {"path": "./core/fract"},
 
     // ui
-    {"path": "./ui/element"},
-    {"path": "./ui/icon"},
-    {"path": "./ui/ui-kit"},
-    {"path": "./ui/ui-kit2"},
-    {"path": "./ui/pwa-helper"},
-    {"path": "./ui/style"},
+    {"path": "./packages/element"},
+    {"path": "./packages/icon"},
+    {"path": "./packages/ui-kit"},
+    {"path": "./packages/ui-kit2"},
+    {"path": "./packages/pwa-helper"},
+    {"path": "./packages/style"},
 
     // demo
     {"path": "./demo"},
@@ -57,7 +57,7 @@
     {"path": "./services/form-registration"},
 
     // uniquely
-    {"path": "./ui/demo-pwa"},
+    {"path": "./packages/demo-pwa"},
     {"path": "./uniquely/flight-finder-api"},
     {"path": "./uniquely/soffit-pwa"},
     {"path": "./uniquely/com-api"},
