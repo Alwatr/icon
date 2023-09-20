@@ -20,7 +20,7 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@alwatr/element@^1.0.1", "@alwatr/element@^1.1.2":
+"@alwatr/element@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@alwatr/element/-/element-1.1.2.tgz#eb96aba4ee6d17db6fb8df37c970bc1602ac2084"
   integrity sha512-Td56+YDDeuS7cKZZ47QkkSeZF4Zm9svYyalh7hKnpGbd8aXMxn91cRJo5CwQU9NFDeXdfN3wdatlYPeLMMkWLA==
@@ -30,16 +30,6 @@
     "@alwatr/logger" "^1.1.2"
     "@alwatr/router" "^1.1.2"
     lit "^2.8.0"
-    tslib "^2.6.2"
-
-"@alwatr/fetch@^1.0.1":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-1.1.3.tgz#009907c5b6616be783d78a5a9a2665e7ca94afdc"
-  integrity sha512-cW6Iyw5CTmMvLNRYv0u3nR8EQhP6Hn/v66a3r3pKd4evBR/ZFuNFvttITpuiVWadAefN3hiWg/bUz3L7cNe6oQ==
-  dependencies:
-    "@alwatr/logger" "^1.1.3"
-    "@alwatr/signal" "^1.1.2"
-    "@alwatr/util" "^1.2.1"
     tslib "^2.6.2"
 
 "@alwatr/fetch@^2.0.1":
@@ -71,7 +61,7 @@
     "@alwatr/type" "^1.1.4"
     tslib "^2.6.2"
 
-"@alwatr/i18n@^1.0.1", "@alwatr/i18n@^1.1.2":
+"@alwatr/i18n@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@alwatr/i18n/-/i18n-1.1.2.tgz#4ac202bb9c326828213e191ac4d382e272d150dd"
   integrity sha512-tXzyQXjs6UtSFK4oq71XgY1t4muaoeKQamskO+JEkDNX+5PARknSKEgg4kadcmnVABw+6WklDq8sgfn4tqrdpA==
@@ -81,7 +71,7 @@
     "@alwatr/signal" "^1.1.2"
     tslib "^2.6.2"
 
-"@alwatr/logger@^1.0.0", "@alwatr/logger@^1.1.2", "@alwatr/logger@^1.1.3", "@alwatr/logger@^1.1.5":
+"@alwatr/logger@^1.0.0", "@alwatr/logger@^1.1.2", "@alwatr/logger@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-1.1.5.tgz#344082aa602142dc4e42ba4739d5f00dc5a540a0"
   integrity sha512-iGBhEyoDnGE2oIz47p2lp+IrKH95M2lOFawULcvKcg2vRzVf/7t6mVicWtqyomkKAocyDMjHicZfjZJqBLZdbA==
@@ -97,17 +87,6 @@
     "@alwatr/logger" "^1.1.5"
     tslib "^2.6.2"
 
-"@alwatr/pwa-helper@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@alwatr/pwa-helper/-/pwa-helper-1.1.2.tgz#00af0aae0477a0e489bc32784cc98450b60b1c38"
-  integrity sha512-QRLa5sggpzMbV6zSD5OE0HI/YAkxfcSawgtIbm0XlimtuVhXpG2+fO5ZC8jsPc+Rxuf3fiM0kbWbRgsqnFmMuw==
-  dependencies:
-    "@alwatr/element" "^1.1.2"
-    "@alwatr/i18n" "^1.1.2"
-    "@alwatr/logger" "^1.1.2"
-    "@alwatr/ui-kit" "^1.0.0"
-    tslib "^2.6.2"
-
 "@alwatr/router@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@alwatr/router/-/router-1.1.2.tgz#2eb38c1f19548fa834c073cd71df8b8cb8297a26"
@@ -118,7 +97,7 @@
     "@alwatr/signal" "^1.1.2"
     tslib "^2.6.2"
 
-"@alwatr/signal@^1.0.1", "@alwatr/signal@^1.1.2":
+"@alwatr/signal@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@alwatr/signal/-/signal-1.1.2.tgz#0ebf599de6a304c3d4f50d266f284a1cea14a94d"
   integrity sha512-7wuvTUYmuT5UZ5o2H86lBmrNwUp5bNDxUFSK4mjxYHuvDJ32s1pHlGe36YwemzZyz4AtD13Z4bVe7ewvK70mnQ==
@@ -143,20 +122,7 @@
   resolved "https://registry.yarnpkg.com/@alwatr/type/-/type-1.1.4.tgz#5bcff20284a0404614e56b9b6c5e7f99580b6586"
   integrity sha512-bjb3yQC/yiRz4ld+IGCIMiuaLGTjmhanaAE5pqPYLCvREIz82VvGvrfd9g9Si+Y8+fOUlIjKLtGvBWliTOaBcA==
 
-"@alwatr/ui-kit@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@alwatr/ui-kit/-/ui-kit-1.0.1.tgz#e0e9319e76ede38c69718934007d56534d081c7e"
-  integrity sha512-n4QPPJKipvHrZ92qYhBk6CsJud8Lf/aYrkR7jPa1SK5FCl5YW4S1dbbc+sNM0ezTXoMvOmMx3+w55X/ydVMLEA==
-  dependencies:
-    "@alwatr/element" "^1.0.1"
-    "@alwatr/fetch" "^1.0.1"
-    "@alwatr/i18n" "^1.0.1"
-    "@alwatr/icon" "^1.0.1"
-    "@alwatr/signal" "^1.0.1"
-    "@alwatr/util" "^1.0.1"
-    tslib "^2.5.3"
-
-"@alwatr/util@^1.0.0", "@alwatr/util@^1.0.1", "@alwatr/util@^1.2.0", "@alwatr/util@^1.2.1", "@alwatr/util@^1.2.3":
+"@alwatr/util@^1.0.0", "@alwatr/util@^1.2.0", "@alwatr/util@^1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@alwatr/util/-/util-1.2.3.tgz#3b926837e3d9ed82f2b2947f7aacbd8bdf39927a"
   integrity sha512-4KQUgP5izK+9xjt673U0gG0iYJdN5pfIe8+QHhzbHyJSHue6RBs406OSY6w++wyzpKW6sK3jLL7Xspu8CIaFCA==
@@ -8633,7 +8599,7 @@ tsconfig-paths@^3.14.2:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^2.1.0, tslib@^2.5.3, tslib@^2.6.2:
+tslib@^2.1.0, tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
