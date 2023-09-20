@@ -1,3 +1,3 @@
-import {tailwindConfig} from '@alwatr/style'
+import {tailwindConfig} from '@alwatr/style';
 
 export default tailwindConfig;
