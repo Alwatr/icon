@@ -32,7 +32,7 @@
     lit "^2.8.0"
     tslib "^2.6.2"
 
-"@alwatr/fetch@^1.0.1", "@alwatr/fetch@^1.1.2":
+"@alwatr/fetch@^1.0.1":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-1.1.3.tgz#009907c5b6616be783d78a5a9a2665e7ca94afdc"
   integrity sha512-cW6Iyw5CTmMvLNRYv0u3nR8EQhP6Hn/v66a3r3pKd4evBR/ZFuNFvttITpuiVWadAefN3hiWg/bUz3L7cNe6oQ==
@@ -40,6 +40,15 @@
     "@alwatr/logger" "^1.1.3"
     "@alwatr/signal" "^1.1.2"
     "@alwatr/util" "^1.2.1"
+    tslib "^2.6.2"
+
+"@alwatr/fetch@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-2.0.1.tgz#e03ed32d68b944c62364d6238b4839204d64107c"
+  integrity sha512-SvHSHaxZ3i09sBAAN+PvTNdjA75CxKjl4PSlRSXT6srDt1rNAHAQ8JJxAijevx5/8GqxCBKODd3KOMP2Mv6hbQ==
+  dependencies:
+    "@alwatr/logger" "^1.1.5"
+    "@alwatr/util" "^1.2.3"
     tslib "^2.6.2"
 
 "@alwatr/fsm@^1.1.2":
