@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.3 (2023-09-20)
+
+### Bug Fixes
+
+* all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
+* **icon:** remove signal and urlPrefixContext ([1344742](https://github.com/AliMD/fract/commit/134474251a3d88c94f3339c380c1d3f9f7acf988)) by @AliMD
+* ts refs ([1668b2d](https://github.com/AliMD/fract/commit/1668b2dbe0fcde38d3d0689ac230ce3bcdc712cb)) by @AliMD
+
 ## [1.1.2](https://github.com/AliMD/fract/compare/@alwatr/icon@1.1.1...@alwatr/icon@1.1.2) (2023-09-12)
 
 **Note:** Version bump only for package @alwatr/icon
