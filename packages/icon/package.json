@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@alwatr/element": "^1.1.2",
-    "@alwatr/fetch": "^1.1.2",
+    "@alwatr/fetch": "^2.0.1",
     "@alwatr/logger": "^1.1.2",
     "tslib": "^2.6.2"
   }
