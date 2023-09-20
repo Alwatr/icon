@@ -64,7 +64,7 @@ export class AlwatrIcon extends DirectionMixin(SignalMixin(AlwatrBaseElement)) {
   </svg>`;
 
   @property({attribute: false})
-    svg: HTMLTemplateResult | null = null;
+  svg: HTMLTemplateResult | null = null;
 
   private _name = '';
   set name(val: string) {

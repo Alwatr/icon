@@ -9,9 +9,5 @@
 
   "include": ["**/*.ts"],
   "exclude": ["*.d.ts", "node_modules"],
-  "references": [
-    {"path": "../packages/router"},
-    {"path": "../packages/icon"},
-    {"path": "../packages/i18n"}
-  ]
+  "references": [{"path": "../packages/router"}, {"path": "../packages/icon"}, {"path": "../packages/i18n"}]
 }
