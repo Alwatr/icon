@@ -1,21 +1,33 @@
-# Alwatr Ionic Icon Set - `@alwatr/icon-set-ionic`
+# Ionic Icon Set
 
-Optimized ionic icon set.
+## Introduction
 
-<!-- TODO: -->
+Premium hand-crafted icons built by Ionic optimized by Alwatr for minimal and easier to use.
 
-## Icons
+## Installation
+
+```bash
+npm install --save-dev @alwatr/icon-set-ionic
+```
+
+```bash
+yarn add --dev @alwatr/icon-set-ionic
+```
+
+## Usage
+
+  TODO: ...
+
+## License
+
+[MIT by ionic](https://github.com/ionic-team/ionicons/blob/main/LICENSE)
+
+## List of icons
 
 <style>
   table img {
     width: 32px;
     height: 32px;
-  }
-  @media (prefers-color-scheme: dark) {
-    table img {
-      -webkit-filter: invert(1);
-              filter: invert(1);
-    }
   }
 </style>
 
