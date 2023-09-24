@@ -13,7 +13,7 @@
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
   "license": "MIT",
   "files": [
-    "**/*.{md,svg}"
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md,svg}"
   ],
   "exports": {
     "./svg/*.svg": {
