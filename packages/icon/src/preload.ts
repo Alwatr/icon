@@ -1,7 +1,7 @@
 import {fetch} from '@alwatr/fetch';
 
 export async function preloadIcon(name: string): Promise<string> {
-  const urlPrefix = 'https://cdn.jsdelivr.net/npm/@alwatr/icon@1/svg/';
+  const urlPrefix = 'https://cdn.jsdelivr.net/npm/@alwatr/icon-set-ionic@2/svg/';
   const url = urlPrefix + name + '.svg';
 
   const response = await fetch({
