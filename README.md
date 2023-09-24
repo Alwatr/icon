@@ -1,8 +1,8 @@
-# Fract by Alwatr
+# Alwatr Icon
 
 ## Introduction
 
-Fract is an open source App Development Framework that makes it easy to build top quality Native and Progressive Web Apps with web technologies.
+Alwatr icon is a collection of packages for using icon in the anywhere!
 
 Contains the following packages:
 

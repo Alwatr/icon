@@ -35,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/fract",
+    "url": "https://github.com/AliMD/alwatr-icon",
     "directory": "packages/icon"
   },
-  "homepage": "https://github.com/AliMD/fract/tree/next/packages/icon#readme",
+  "homepage": "https://github.com/AliMD/alwatr-icon/tree/next/packages/icon#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/fract/issues"
+    "url": "https://github.com/AliMD/alwatr-icon/issues"
   },
   "dependencies": {
     "@alwatr/element": "^1.1.2",

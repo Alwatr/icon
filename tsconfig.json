@@ -16,14 +16,7 @@
   "exclude": [],
   "references": [
     // packages
-    {"path": "./packages/router"},
-    {"path": "./packages/i18n"},
-    {"path": "./packages/fract"},
     {"path": "./packages/icon"},
-    {"path": "./packages/ui-kit"},
-    {"path": "./packages/style"},
-    {"path": "./packages/demo-pwa"},
-
     // demo
     {"path": "./demo"}
   ]
