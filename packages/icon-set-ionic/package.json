@@ -17,7 +17,8 @@
   ],
   "exports": {
     "./svg/*.svg": {
-      "default": "./svg/*.svg"
+      "default": "./svg/*.svg",
+      "types": "./svg.d.ts"
     }
   },
   "publishConfig": {
