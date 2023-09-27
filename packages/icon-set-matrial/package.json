@@ -1,0 +1,36 @@
+{
+  "name": "@alwatr/icon-set-material",
+  "version": "0.0.0",
+  "description": "Premium hand-crafted icons built by Google material design optimized by Alwatr.",
+  "keywords": [
+    "icon",
+    "icons",
+    "alwatr"
+  ],
+  "main": "svg.js",
+  "type": "module",
+  "types": "svg.d.ts",
+  "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
+  "license": "MIT",
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md,svg}"
+  ],
+  "exports": {
+    "./svg/*.svg": {
+      "default": "./svg/*.svg",
+      "types": "./svg.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliMD/alwatr-icon",
+    "directory": "packages/icon-set-material"
+  },
+  "homepage": "https://github.com/AliMD/alwatr-icon/tree/next/packages/icon-set-material#readme",
+  "bugs": {
+    "url": "https://github.com/AliMD/alwatr-icon/issues"
+  }
+}
