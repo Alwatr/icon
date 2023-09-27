@@ -20,7 +20,7 @@ TODO: ...
 
 ## License
 
-[MIT by ionic](https://github.com/ionic-team/ionicons/blob/main/LICENSE)
+[Apache 2.0 by Google](https://github.com/google/material-design-icons/blob/master/LICENSE)
 
 ## List of icons
 
