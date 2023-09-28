@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/AliMD/alwatr-icon/compare/@alwatr/icon-set-material@0.1.0...@alwatr/icon-set-material@0.1.1) (2023-09-28)
+
+### Bug Fixes
+
+* package folder name ([4153f14](https://github.com/AliMD/alwatr-icon/commit/4153f14a461a8349226d552677f1b4ba2d18ce05)) by @AliMD
+
 # 0.1.0 (2023-09-27)
 
 ### Bug Fixes
