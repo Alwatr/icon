@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/AliMD/alwatr-icon/compare/@alwatr/icon-set-material@0.1.1...@alwatr/icon-set-material@1.0.0) (2023-10-29)
+
+### Bug Fixes
+
+* **icon-set-material:** regenerate_from_source ([f357c80](https://github.com/AliMD/alwatr-icon/commit/f357c80f4b915d688c579a79059063bb1c5924eb)) by @AliMD
+* **icon-set-material:** regenerate_from_source ([51b386d](https://github.com/AliMD/alwatr-icon/commit/51b386d78e97b59f2087e4f96f5db5c2e53c1e7b)) by @AliMD
+
+### Features
+
+* **icon-set-material:** update new icons ([429278f](https://github.com/AliMD/alwatr-icon/commit/429278fb357b57f00831ab8b9b8e773e13650ce8)) by @AliMD
+* **icon-set-material:** update new icons ([1cc4b1f](https://github.com/AliMD/alwatr-icon/commit/1cc4b1f1dfb21700cfec16f529ae67c817fc3e94)) by @AliMD
+* **icon0set-material:** regenerate_from_source ([0a70c2d](https://github.com/AliMD/alwatr-icon/commit/0a70c2d037d0fcccafeb1eedd8e699fe42dbe278)) by @AliMD
+
 ## [0.1.1](https://github.com/AliMD/alwatr-icon/compare/@alwatr/icon-set-material@0.1.0...@alwatr/icon-set-material@0.1.1) (2023-09-28)
 
 ### Bug Fixes
