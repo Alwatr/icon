@@ -52,8 +52,8 @@ for iconName in ./*; do
     echo "$count"
   fi
 
-  mv -av ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300_24px.svg ./svg/outline/${iconName}.svg
-  mv -av ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300fill1_24px.svg ./svg/fill/${iconName}.svg
+  mv ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300_24px.svg ./svg/outline/${iconName}.svg
+  mv ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300fill1_24px.svg ./svg/fill/${iconName}.svg
 
   sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ./svg/outline/${iconName}.svg
   sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ./svg/fill/${iconName}.svg
