@@ -36,7 +36,7 @@ rm -rf material-design-icons-master
 
 echo ''
 echo -n 'Icon count: '
-ls -lah ${downloadName} | wc -l
+ls -l ${downloadName} | wc -l
 
 mkdir -p svg/outline
 mkdir svg/fill
@@ -44,25 +44,34 @@ mkdir svg/fill
 # mkdir svg/sharp
 
 echoStep 'Processed icons'
+cd  ${downloadName}
 count=0
-for iconName in ./*; do
+for iconName in *
+do
   (( count++ ))
   if (( count % 100 == 0 ))
   then
     echo "$count"
   fi
 
-  mv ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300_24px.svg ./svg/outline/${iconName}.svg
-  mv ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300fill1_24px.svg ./svg/fill/${iconName}.svg
+  mv ./${iconName}/materialsymbolsoutlined/${iconName}_wght300_24px.svg ../svg/outline/${iconName}.svg
+  mv ./${iconName}/materialsymbolsoutlined/${iconName}_wght300fill1_24px.svg ../svg/fill/${iconName}.svg
 
-  sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ./svg/outline/${iconName}.svg
-  sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ./svg/fill/${iconName}.svg
+  sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ../svg/outline/${iconName}.svg
+  sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ../svg/fill/${iconName}.svg
 done
+echo "$count done"
+cd ..
 
 echo ''
 echo -n 'clean up: '
 rm -rfv ${downloadName} | wc -l
 
 rename 's/_/-/g' svg/*/*
+
+echo -n 'Done: '
+ls -l svg/outline | wc -l
+
+cat svg/outline/home.svg
 
 rm -i ${downloadName}.zip
