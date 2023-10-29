@@ -12,31 +12,57 @@ function echoWarn() {
   echoColor 3 "⚠️  $1"
 }
 
-downloadFileName=material-design-icons.zip
+function echoStep() {
+  echoColor 6 "\n🔸 $1\n"
+}
 
-if [ -f $downloadFileName ]
-then
-  echoWarn "$downloadFileName exists"
+downloadName=material-design-icons
+
+if [ -f ${downloadName}.zip ]; then
+  echoWarn "${downloadName}.zip exists"
 else
-  curl -Lo $downloadFileName https://github.com/google/material-design-icons/archive/refs/heads/master.zip
+  echoStep 'Downloading...'
+  curl -Lo ${downloadName}.zip https://github.com/google/material-design-icons/archive/refs/heads/master.zip
 fi
 
-unzip -j $downloadFileName 'material-design-icons-master/symbols/web/*' -d ./original
+echoStep 'Clean up...'
+echo -n 'clean up: '
+rm -rfv material-design-icons-master ${downloadName} svg | wc -l
 
-rm -rf svg
+echoStep 'Extract...'
+unzip -q ${downloadName}.zip 'material-design-icons-master/symbols/web/*' -d ./
+mv material-design-icons-master/symbols/web ${downloadName}
+rm -rf material-design-icons-master
+
+echo ''
+echo -n 'Icon count: '
+ls -lah ${downloadName} | wc -l
+
 mkdir -p svg/outline
 mkdir svg/fill
 # mkdir svg/round
 # mkdir svg/sharp
 
-for iconName in ./*
-do
-  cp -av ./original/${iconName}/materialsymbolsoutlined/${iconName}_wght300_24px.svg ./svg/outline/${iconName}.svg
-  cp -av ./original/${iconName}/materialsymbolsoutlined/${iconName}_wght300fill1_24px.svg ./svg/fill/${iconName}.svg
+echoStep 'Processed icons'
+count=0
+for iconName in ./*; do
+  (( count++ ))
+  if (( count % 100 == 0 ))
+  then
+    echo "$count"
+  fi
+
+  mv -av ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300_24px.svg ./svg/outline/${iconName}.svg
+  mv -av ./${downloadName}/${iconName}/materialsymbolsoutlined/${iconName}_wght300fill1_24px.svg ./svg/fill/${iconName}.svg
 
   sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ./svg/outline/${iconName}.svg
   sed -i 's/height="24" width="24"/viewBox="0 0 24 24"/' ./svg/fill/${iconName}.svg
 done
 
-cd svg
-rename 's/_/-/g' **/**
+echo ''
+echo -n 'clean up: '
+rm -rfv ${downloadName} | wc -l
+
+rename 's/_/-/g' svg/*/*
+
+rm -i ${downloadName}.zip
