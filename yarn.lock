@@ -3759,7 +3759,7 @@ lines-and-columns@^2.0.3:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-2.0.3.tgz#b2f0badedb556b747020ab8ea7f0373e22efac1b"
   integrity sha512-cNOjgCnLB+FnvWWtyRTzmB3POJ+cXxTA81LoW7u8JdmhfXzriropYwpjShnz1QLLWsQwY7nIxoDmcPTwphDK9w==
 
-lit-analyzer@^2.0.0:
+lit-analyzer@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/lit-analyzer/-/lit-analyzer-2.0.1.tgz#db9d67866daf3c85ea6a5a624e1987c11d06fb86"
   integrity sha512-4bHJLCbxywMHd9bnVkLDkCSHXs/KrlwUks75EhYtJNdzH07O5BSVdZdadbw4T2AvuYxb0xRO4ZjqgQJCkp8Kjg==
@@ -5633,12 +5633,12 @@ ts-api-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.0.3.tgz#f12c1c781d04427313dbac808f453f050e54a331"
   integrity sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==
 
-ts-lit-plugin@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ts-lit-plugin/-/ts-lit-plugin-2.0.0.tgz#3a5dcf254424b365e80a5dfef3b560b89ddfd986"
-  integrity sha512-NPQ235pyUSqBTve/SkPIiIqmfGiR08ov7D2WeEtu/3WpsZyKHhxK7BSMoFQi+LzgCx/2Gr6nd+0Iv5DvlrJXow==
+ts-lit-plugin@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ts-lit-plugin/-/ts-lit-plugin-2.0.1.tgz#ef923baa5c8a62db932db3819ddbe403d35ee8c2"
+  integrity sha512-Y5G03aDiMYHMLzoZ50kdeVkzgVig2mBw6PVY2oI9PcWl3ONTcDyYq6rJ0QzhlACYWP8sT0dmaPMsHMObgNNvvg==
   dependencies:
-    lit-analyzer "^2.0.0"
+    lit-analyzer "^2.0.1"
     web-component-analyzer "^2.0.0"
 
 ts-simple-type@2.0.0-next.0, ts-simple-type@~2.0.0-next.0:
