@@ -27,13 +27,13 @@
     lit "^2.8.0"
     tslib "^2.6.2"
 
-"@alwatr/fetch@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-2.0.1.tgz#e03ed32d68b944c62364d6238b4839204d64107c"
-  integrity sha512-SvHSHaxZ3i09sBAAN+PvTNdjA75CxKjl4PSlRSXT6srDt1rNAHAQ8JJxAijevx5/8GqxCBKODd3KOMP2Mv6hbQ==
+"@alwatr/fetch@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-2.0.7.tgz#681bf340ce2811935e1d9a23a0a130a1d1970b20"
+  integrity sha512-yXZmPsZoZuy6wPmXU3Su0JVkkFKoQV3dylGTlpd+zAawztKEJ0JWXmW8EyaTdDo7q+x5xHJJIzAZMoKYw99SHA==
   dependencies:
-    "@alwatr/logger" "^1.1.5"
-    "@alwatr/util" "^1.2.3"
+    "@alwatr/logger" "^2.1.2"
+    "@alwatr/util" "^1.2.9"
     tslib "^2.6.2"
 
 "@alwatr/fsm@^1.1.2":
@@ -64,7 +64,22 @@
     "@alwatr/type" "^1.1.4"
     tslib "^2.6.2"
 
-"@alwatr/math@^1.1.2", "@alwatr/math@^1.1.5":
+"@alwatr/logger@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-2.1.2.tgz#41b383aed90c877729555dfbadd68aa6599c6c90"
+  integrity sha512-qCViJ0USpdRIvOtdUEUlqA+MfuX8JMzgwxwC5ddHNnx1MoWIn7PHuAeJaF/LZ7chl4Mp8qqtIPjSMRoyU7aV4Q==
+  dependencies:
+    tslib "^2.6.2"
+
+"@alwatr/math@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@alwatr/math/-/math-1.1.11.tgz#32ae5a101a34b11e2ec61141d7eefd0138dcad97"
+  integrity sha512-7s7QdEJb9DauVsLw9fT+y63GHiw0c4UuCtwIL3YYC05zNTRu0OA62a12ett0WfYCFcR3i0l0UxCUMFNpg1aXdg==
+  dependencies:
+    "@alwatr/logger" "^2.1.2"
+    tslib "^2.6.2"
+
+"@alwatr/math@^1.1.2":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@alwatr/math/-/math-1.1.5.tgz#0e9b6c3160ca1a480b21de967e41aa48a9d86e6f"
   integrity sha512-RoTLuFs0ln8j3TgIueEwynRoD02KmYWCAyUNKaDHLzAnfGMJtJQeeN7PZko87qk3kA6mBpj+/2XXH4Do8Hu2rw==
@@ -97,12 +112,12 @@
   resolved "https://registry.yarnpkg.com/@alwatr/type/-/type-1.1.4.tgz#5bcff20284a0404614e56b9b6c5e7f99580b6586"
   integrity sha512-bjb3yQC/yiRz4ld+IGCIMiuaLGTjmhanaAE5pqPYLCvREIz82VvGvrfd9g9Si+Y8+fOUlIjKLtGvBWliTOaBcA==
 
-"@alwatr/util@^1.2.0", "@alwatr/util@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@alwatr/util/-/util-1.2.3.tgz#3b926837e3d9ed82f2b2947f7aacbd8bdf39927a"
-  integrity sha512-4KQUgP5izK+9xjt673U0gG0iYJdN5pfIe8+QHhzbHyJSHue6RBs406OSY6w++wyzpKW6sK3jLL7Xspu8CIaFCA==
+"@alwatr/util@^1.2.0", "@alwatr/util@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@alwatr/util/-/util-1.2.9.tgz#48aeb5a15ad654d35f3b9ddbe8aa3bf225dab098"
+  integrity sha512-CKj/uPYHuwrvqPMo/LU4XoA4qP1VuVYaBoEUmUvWsx9Xgs2wD8UkHjDVl6ebJw1pI7YDjjhgivP7Maoh2S7rDw==
   dependencies:
-    "@alwatr/math" "^1.1.5"
+    "@alwatr/math" "^1.1.11"
     "@alwatr/type" "^1.1.4"
     tslib "^2.6.2"
 
