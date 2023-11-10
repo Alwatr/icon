@@ -9,8 +9,7 @@
     "runem.lit-plugin",
     "streetsidesoftware.code-spell-checker-persian",
     "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint",
-    "csstools.postcss",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "arcanis.vscode-zipfs"
   ]
 }

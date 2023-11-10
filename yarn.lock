@@ -99,6 +99,7 @@ __metadata:
     "@alwatr/element": "npm:^1.1.2"
     "@alwatr/fetch": "npm:^2.0.1"
     "@alwatr/logger": "npm:^1.1.2"
+    "@types/node": "npm:^20.9.0"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
@@ -1666,7 +1667,6 @@ __metadata:
     "@lerna-lite/publish": "npm:^2.6.0"
     "@lerna-lite/run": "npm:^2.6.0"
     "@lerna-lite/version": "npm:^2.6.0"
-    "@types/node": "npm:^20.9.0"
     "@typescript-eslint/eslint-plugin": "npm:^6.10.0"
     "@typescript-eslint/parser": "npm:^6.10.0"
     "@web/dev-server": "npm:^0.4.0"
