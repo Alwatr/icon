@@ -45,14 +45,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alwatr/fetch@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@alwatr/fetch@npm:2.0.1"
+"@alwatr/fetch@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "@alwatr/fetch@npm:2.0.8"
   dependencies:
-    "@alwatr/logger": "npm:^1.1.5"
-    "@alwatr/util": "npm:^1.2.3"
+    "@alwatr/logger": "npm:^2.1.3"
+    "@alwatr/util": "npm:^1.2.10"
     tslib: "npm:^2.6.2"
-  checksum: dd84c34f7dd0cd59dea26f077846d1d89b92a4c9d3166353c9e679266a42929ac93488dccbb3d20f472298fbb1db1444b4cad455f175e8a5eb7d0dbaa57e0b11
+  checksum: 9b68af52d25c808bc073637bec44f0d94eeb8cd9abdb01552c7e1a00f291f857b60ffd1aa7dd9218f8736533e88583e6f75fad43c720b5b22ba34ac892fd409b
   languageName: node
   linkType: hard
 
@@ -97,14 +97,24 @@ __metadata:
   resolution: "@alwatr/icon@workspace:packages/icon"
   dependencies:
     "@alwatr/element": "npm:^1.1.2"
-    "@alwatr/fetch": "npm:^2.0.1"
-    "@alwatr/logger": "npm:^1.1.2"
+    "@alwatr/fetch": "npm:^2.0.8"
+    "@alwatr/logger": "npm:^2.1.3"
     "@types/node": "npm:^20.9.0"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
 
-"@alwatr/logger@npm:^1.1.2, @alwatr/logger@npm:^1.1.5":
+"@alwatr/logger@npm:^1.1.2":
+  version: 1.2.0
+  resolution: "@alwatr/logger@npm:1.2.0"
+  dependencies:
+    "@alwatr/type": "npm:^1.1.4"
+    tslib: "npm:^2.6.2"
+  checksum: 9e46ae00f7c42ed677c4cc56ba3922aafc62f34e7bba3e3960650e63c669e7f8d91109a6e85f261b6745d29e102f71c3596188635c5f4f1e191514657dc08aa8
+  languageName: node
+  linkType: hard
+
+"@alwatr/logger@npm:^1.1.5":
   version: 1.1.5
   resolution: "@alwatr/logger@npm:1.1.5"
   dependencies:
@@ -174,7 +184,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alwatr/util@npm:^1.2.0, @alwatr/util@npm:^1.2.3":
+"@alwatr/type@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "@alwatr/type@npm:1.1.5"
+  checksum: d87587dfd9dff8ceb42dbe187f3db4313877930da802c269596ebcdb1e3541ae0264e91f708882ddbc43a0cff5003583ab543593e080fcd051408e5998f3cdf6
+  languageName: node
+  linkType: hard
+
+"@alwatr/util@npm:^1.2.0":
   version: 1.2.3
   resolution: "@alwatr/util@npm:1.2.3"
   dependencies:
@@ -182,6 +199,17 @@ __metadata:
     "@alwatr/type": "npm:^1.1.4"
     tslib: "npm:^2.6.2"
   checksum: 6a8486dd7355644309df89804e6757177a45d8b5ae825b56160a83326e502cd287fbea512fcaba3febaae925c520a68f20328cfee6bc5f75a1c978ac523547e5
+  languageName: node
+  linkType: hard
+
+"@alwatr/util@npm:^1.2.10":
+  version: 1.2.10
+  resolution: "@alwatr/util@npm:1.2.10"
+  dependencies:
+    "@alwatr/math": "npm:^1.1.12"
+    "@alwatr/type": "npm:^1.1.5"
+    tslib: "npm:^2.6.2"
+  checksum: c7f345ad11634aba9900fd59da1eb69998a2b7484b08ed672a081b012965380f4b7075ec0f99a5e917eb455312942db15c4c0416829808b532d38e303f0972f6
   languageName: node
   linkType: hard
 
@@ -1675,7 +1703,7 @@ __metadata:
     eslint-plugin-import: "npm:^2.29.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:^3.0.3"
-    ts-lit-plugin: "npm:^2.0.0"
+    ts-lit-plugin: "npm:^2.0.1"
     typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
@@ -4917,7 +4945,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit-analyzer@npm:^2.0.0":
+"lit-analyzer@npm:^2.0.1":
   version: 2.0.1
   resolution: "lit-analyzer@npm:2.0.1"
   dependencies:
@@ -7368,13 +7396,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-lit-plugin@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "ts-lit-plugin@npm:2.0.0"
+"ts-lit-plugin@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "ts-lit-plugin@npm:2.0.1"
   dependencies:
-    lit-analyzer: "npm:^2.0.0"
+    lit-analyzer: "npm:^2.0.1"
     web-component-analyzer: "npm:^2.0.0"
-  checksum: e761e0c3f55d7bef60f8cd6f400ec03f5f1789af6f5eecc7d9821d06cd8787f2e6a8da010059ed26c5ed5766f08eeb9d45b89db1adafcaae8ca43cc171c3fba7
+  checksum: 17146c0250991d6f69f71afd136ea7abca18b50202146c5d1535f10b87f5f9bc1bab22181f9ee881d570c99cac1c8ce8607b05c9a53e5b1dabf20c67e1b4a640
   languageName: node
   linkType: hard
 
