@@ -5,8 +5,5 @@
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
   "type": "module",
   "private": true,
-  "dependencies": {
-    "@alwatr/icon": "workspace:^",
-    "@alwatr/math": "^1.1.12"
-  }
+  "dependencies": {}
 }
