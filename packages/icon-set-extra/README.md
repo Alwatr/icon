@@ -7,11 +7,11 @@ Alwatr Customized icon set.
 ## Installation
 
 ```bash
-npm install --save-dev @alwatr/icon-set-alwatr
+npm install --save-dev @alwatr/icon-set-extra
 ```
 
 ```bash
-yarn add --dev @alwatr/icon-set-alwatr
+yarn add --dev @alwatr/icon-set-extra
 ```
 
 ## Usage

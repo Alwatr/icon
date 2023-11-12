@@ -1,6 +1,6 @@
 {
-  "name": "@alwatr/icon-set-alwatr",
-  "version": "0.1.0",
+  "name": "@alwatr/icon-set-extra",
+  "version": "0.0.0",
   "description": "Alwatr custom icon set.",
   "keywords": [
     "icon",
@@ -27,9 +27,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Alwatr/icon",
-    "directory": "packages/icon-set-alwatr"
+    "directory": "packages/icon-set-extra"
   },
-  "homepage": "https://github.com/Alwatr/icon/tree/next/packages/icon-set-alwatr#readme",
+  "homepage": "https://github.com/Alwatr/icon/tree/next/packages/icon-set-extra#readme",
   "bugs": {
     "url": "https://github.com/Alwatr/icon/issues"
   }
