@@ -15,7 +15,9 @@
   "files": [],
   "exclude": [],
   "references": [
-    // {"path": "./packages/icon"},
-    // {"path": "./demo"}
+    {"path": "./packages/icon-set-material"},
+    {"path": "./packages/icon-set-ionic"},
+    {"path": "./packages/icon-set-extra"},
+    {"path": "./demo"}
   ]
 }
