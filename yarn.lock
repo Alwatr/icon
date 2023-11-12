@@ -25,60 +25,8 @@ __metadata:
 "@alwatr/demo@workspace:demo":
   version: 0.0.0-use.local
   resolution: "@alwatr/demo@workspace:demo"
-  dependencies:
-    "@alwatr/icon": "workspace:^"
-    "@alwatr/math": "npm:^1.1.12"
   languageName: unknown
   linkType: soft
-
-"@alwatr/element@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@alwatr/element@npm:1.1.2"
-  dependencies:
-    "@alwatr/fsm": "npm:^1.1.2"
-    "@alwatr/i18n": "npm:^1.1.2"
-    "@alwatr/logger": "npm:^1.1.2"
-    "@alwatr/router": "npm:^1.1.2"
-    lit: "npm:^2.8.0"
-    tslib: "npm:^2.6.2"
-  checksum: cf0cacea2101c38563c9c2073cdc0eafa20cf26751936b1e8f6d5618909cc64eccc6e17e70d76caa0fa5fb6bef37d05bf43c755e5ddd4753272417d89cf29005
-  languageName: node
-  linkType: hard
-
-"@alwatr/fetch@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "@alwatr/fetch@npm:2.0.8"
-  dependencies:
-    "@alwatr/logger": "npm:^2.1.3"
-    "@alwatr/util": "npm:^1.2.10"
-    tslib: "npm:^2.6.2"
-  checksum: 9b68af52d25c808bc073637bec44f0d94eeb8cd9abdb01552c7e1a00f291f857b60ffd1aa7dd9218f8736533e88583e6f75fad43c720b5b22ba34ac892fd409b
-  languageName: node
-  linkType: hard
-
-"@alwatr/fsm@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@alwatr/fsm@npm:1.1.2"
-  dependencies:
-    "@alwatr/logger": "npm:^1.1.2"
-    "@alwatr/signal": "npm:^1.1.2"
-    "@alwatr/type": "npm:^1.1.1"
-    tslib: "npm:^2.6.2"
-  checksum: 5c9006e6faa5cebbdc0fbc76fde1514d7430499537c854e6bc7098b0ce2276ba0120928f260ebc61fae8fdb4cd279cb34170951e34d5f1673f13a97498a6b701
-  languageName: node
-  linkType: hard
-
-"@alwatr/i18n@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@alwatr/i18n@npm:1.1.2"
-  dependencies:
-    "@alwatr/logger": "npm:^1.1.2"
-    "@alwatr/math": "npm:^1.1.2"
-    "@alwatr/signal": "npm:^1.1.2"
-    tslib: "npm:^2.6.2"
-  checksum: a34bd6e0392106074f7cbbfeb871120374edebde3fb67dee7c00ae46581f5bdd441ef40821f0608bd28c0bfc2219112708ac21e572941a8b1b457ca1a7fab52e
-  languageName: node
-  linkType: hard
 
 "@alwatr/icon-set-alwatr@workspace:packages/icon-set-alwatr":
   version: 0.0.0-use.local
@@ -97,127 +45,6 @@ __metadata:
   resolution: "@alwatr/icon-set-material@workspace:packages/icon-set-material"
   languageName: unknown
   linkType: soft
-
-"@alwatr/icon@workspace:^, @alwatr/icon@workspace:packages/icon":
-  version: 0.0.0-use.local
-  resolution: "@alwatr/icon@workspace:packages/icon"
-  dependencies:
-    "@alwatr/element": "npm:^1.1.2"
-    "@alwatr/fetch": "npm:^2.0.8"
-    "@alwatr/logger": "npm:^2.1.3"
-    "@types/node": "npm:^20.9.0"
-    tslib: "npm:^2.6.2"
-  languageName: unknown
-  linkType: soft
-
-"@alwatr/logger@npm:^1.1.2":
-  version: 1.2.0
-  resolution: "@alwatr/logger@npm:1.2.0"
-  dependencies:
-    "@alwatr/type": "npm:^1.1.4"
-    tslib: "npm:^2.6.2"
-  checksum: 9e46ae00f7c42ed677c4cc56ba3922aafc62f34e7bba3e3960650e63c669e7f8d91109a6e85f261b6745d29e102f71c3596188635c5f4f1e191514657dc08aa8
-  languageName: node
-  linkType: hard
-
-"@alwatr/logger@npm:^1.1.5":
-  version: 1.1.5
-  resolution: "@alwatr/logger@npm:1.1.5"
-  dependencies:
-    "@alwatr/type": "npm:^1.1.4"
-    tslib: "npm:^2.6.2"
-  checksum: f38493c351683b3a562ada183b9aec7c2bb08a7ca852bf49fe83c98261d0bc5b94ac6691e90073998a6bd8796cffa944a2c79caaac94a91f12a29c2188b5b652
-  languageName: node
-  linkType: hard
-
-"@alwatr/logger@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@alwatr/logger@npm:2.1.3"
-  dependencies:
-    tslib: "npm:^2.6.2"
-  checksum: 7f2e43eb2a324a63b7603e205900c66f922cf81668d692368bb63cb6070a21a52fafc6d82e553c3ebc43f340feeac3ef1dd13871f989e317b61c6951786e294a
-  languageName: node
-  linkType: hard
-
-"@alwatr/math@npm:^1.1.12":
-  version: 1.1.12
-  resolution: "@alwatr/math@npm:1.1.12"
-  dependencies:
-    "@alwatr/logger": "npm:^2.1.3"
-    tslib: "npm:^2.6.2"
-  checksum: 10b8016dc63241edbe1b2ab4a9cc02d5a5d9c0cf373f5ecb3f4f17484dfaff422c901ef6b8bbda07db6819753b75740d9129afdb34df11c031d922aa06c3ab30
-  languageName: node
-  linkType: hard
-
-"@alwatr/math@npm:^1.1.2, @alwatr/math@npm:^1.1.5":
-  version: 1.1.5
-  resolution: "@alwatr/math@npm:1.1.5"
-  dependencies:
-    "@alwatr/logger": "npm:^1.1.5"
-    tslib: "npm:^2.6.2"
-  checksum: 687af49a40750547e6c2b2d0164d546cbdc692ccc80bcf1b3820808cbd626b0af63079bf5233124c27a4d805103ff457146c56d9965a3baacf55c7e89a74f082
-  languageName: node
-  linkType: hard
-
-"@alwatr/router@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@alwatr/router@npm:1.1.2"
-  dependencies:
-    "@alwatr/logger": "npm:^1.1.2"
-    "@alwatr/math": "npm:^1.1.2"
-    "@alwatr/signal": "npm:^1.1.2"
-    tslib: "npm:^2.6.2"
-  checksum: 631bd3dc0c2f5e89bb76fbce52d90020d4ab0889d2f3b41379cfa9101e6a0d99cbf0fabea4e1874b5bef446cb278ea2ffcc7b451b9276a6a7717f4162e93ae28
-  languageName: node
-  linkType: hard
-
-"@alwatr/signal@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@alwatr/signal@npm:1.1.2"
-  dependencies:
-    "@alwatr/logger": "npm:^1.1.2"
-    "@alwatr/type": "npm:^1.1.1"
-    "@alwatr/util": "npm:^1.2.0"
-    tslib: "npm:^2.6.2"
-  checksum: ddd011b8e0e2bb6de231b39572a1c1ec2739b8d779dd662bee52d2c4fd0f71255bf2c4a277df8d5cd2c1be3d87b5bf650e442aa5a89963e7b1aafbc80bd67a67
-  languageName: node
-  linkType: hard
-
-"@alwatr/type@npm:^1.1.1, @alwatr/type@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "@alwatr/type@npm:1.1.4"
-  checksum: 7622bff8a052167672a0f1a6f8c5f9a3329f8e10a6c511b50c7989d10214dee7c4b783435bf2a65d517fd2f3d7fa82a2e446d3c5a21c1c6e27160ae8a4aafcf0
-  languageName: node
-  linkType: hard
-
-"@alwatr/type@npm:^1.1.5":
-  version: 1.1.5
-  resolution: "@alwatr/type@npm:1.1.5"
-  checksum: d87587dfd9dff8ceb42dbe187f3db4313877930da802c269596ebcdb1e3541ae0264e91f708882ddbc43a0cff5003583ab543593e080fcd051408e5998f3cdf6
-  languageName: node
-  linkType: hard
-
-"@alwatr/util@npm:^1.2.0":
-  version: 1.2.3
-  resolution: "@alwatr/util@npm:1.2.3"
-  dependencies:
-    "@alwatr/math": "npm:^1.1.5"
-    "@alwatr/type": "npm:^1.1.4"
-    tslib: "npm:^2.6.2"
-  checksum: 6a8486dd7355644309df89804e6757177a45d8b5ae825b56160a83326e502cd287fbea512fcaba3febaae925c520a68f20328cfee6bc5f75a1c978ac523547e5
-  languageName: node
-  linkType: hard
-
-"@alwatr/util@npm:^1.2.10":
-  version: 1.2.10
-  resolution: "@alwatr/util@npm:1.2.10"
-  dependencies:
-    "@alwatr/math": "npm:^1.1.12"
-    "@alwatr/type": "npm:^1.1.5"
-    tslib: "npm:^2.6.2"
-  checksum: c7f345ad11634aba9900fd59da1eb69998a2b7484b08ed672a081b012965380f4b7075ec0f99a5e917eb455312942db15c4c0416829808b532d38e303f0972f6
-  languageName: node
-  linkType: hard
 
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.11, @babel/code-frame@npm:^7.21.4":
   version: 7.22.13
@@ -599,22 +426,6 @@ __metadata:
     uuid: "npm:^9.0.1"
     write-json-file: "npm:^5.0.0"
   checksum: 922689dc5d7c4c0b41099f512e14bf3d22598beb99b428818565710341e8fdd82e5be0e17d0d9098d8afff59579062d0ad8961bde2f333fd2e530950055cb433
-  languageName: node
-  linkType: hard
-
-"@lit-labs/ssr-dom-shim@npm:^1.0.0, @lit-labs/ssr-dom-shim@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "@lit-labs/ssr-dom-shim@npm:1.1.1"
-  checksum: bc530a6d390a71e44a74f0d79ab78df0c3cf814f5a69e64c60271d626f4b871d0269c82f2b1bcaf9ef1a84f361f50a1fc70c790873cded769e8f0e4f1fa01ff8
-  languageName: node
-  linkType: hard
-
-"@lit/reactive-element@npm:^1.3.0, @lit/reactive-element@npm:^1.6.0":
-  version: 1.6.3
-  resolution: "@lit/reactive-element@npm:1.6.3"
-  dependencies:
-    "@lit-labs/ssr-dom-shim": "npm:^1.0.0"
-  checksum: 10f1d25e24e32feb21c4c6f9e11d062901241602e12c4ecf746b3138f87fed4d8394194645514d5c1bfd5f33f3fd56ee8ef41344e2cb4413c40fe4961ec9d419
   languageName: node
   linkType: hard
 
@@ -1263,15 +1074,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.9.0":
-  version: 20.9.0
-  resolution: "@types/node@npm:20.9.0"
-  dependencies:
-    undici-types: "npm:~5.26.4"
-  checksum: 755d07de735eafda4e20af75ad9d03bdbfddef327d790e9a896142eac7493db5d8501591376e1c8227aa12eeb88e522bc727c6024504842ed40e539e8a466db9
-  languageName: node
-  linkType: hard
-
 "@types/normalize-package-data@npm:^2.4.0, @types/normalize-package-data@npm:^2.4.1":
   version: 2.4.2
   resolution: "@types/normalize-package-data@npm:2.4.2"
@@ -1332,13 +1134,6 @@ __metadata:
     "@types/mime": "npm:*"
     "@types/node": "npm:*"
   checksum: 5e7b3e17b376f8910d5c9a0b1def38d7841c8939713940098f1b80a330d5caa9cfe9b632c122252cd70165052439e18fafa46635dc55b1d6058343901eec22eb
-  languageName: node
-  linkType: hard
-
-"@types/trusted-types@npm:^2.0.2":
-  version: 2.0.4
-  resolution: "@types/trusted-types@npm:2.0.4"
-  checksum: ad7ca5059168880d8fa04ebf9d5f57d402bef4d7bb8a50df5103db8bf3821a334aaa2dab9937cf5d440beb707bed35b700fa387fcbce0611821d4cea7fa94dc1
   languageName: node
   linkType: hard
 
@@ -4970,37 +4765,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit-element@npm:^3.3.0":
-  version: 3.3.3
-  resolution: "lit-element@npm:3.3.3"
-  dependencies:
-    "@lit-labs/ssr-dom-shim": "npm:^1.1.0"
-    "@lit/reactive-element": "npm:^1.3.0"
-    lit-html: "npm:^2.8.0"
-  checksum: f44c12fa3423a4e9ca5b84651410687e14646bb270ac258325e6905affac64a575f041f8440377e7ebaefa3910b6f0d6b8b1e902cb1aa5d0849b3fdfbf4fb3b6
-  languageName: node
-  linkType: hard
-
-"lit-html@npm:^2.8.0":
-  version: 2.8.0
-  resolution: "lit-html@npm:2.8.0"
-  dependencies:
-    "@types/trusted-types": "npm:^2.0.2"
-  checksum: 90057dee050803823ac884c1355b0213ab8c05fbe2ec63943c694b61aade5d36272068f3925f45a312835e504f9c9784738ef797009f0a756a750351eafb52d5
-  languageName: node
-  linkType: hard
-
-"lit@npm:^2.8.0":
-  version: 2.8.0
-  resolution: "lit@npm:2.8.0"
-  dependencies:
-    "@lit/reactive-element": "npm:^1.6.0"
-    lit-element: "npm:^3.3.0"
-    lit-html: "npm:^2.8.0"
-  checksum: bf33c26b1937ee204aed1adbfa4b3d43a284e85aad8ea9763c7865365917426eded4e5888158b4136095ea42054812561fe272862b61775f1198fad3588b071f
-  languageName: node
-  linkType: hard
-
 "load-json-file@npm:^4.0.0":
   version: 4.0.0
   resolution: "load-json-file@npm:4.0.0"
@@ -7431,7 +7195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.1.0, tslib@npm:^2.6.2":
+"tslib@npm:^2.1.0":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: e03a8a4271152c8b26604ed45535954c0a45296e32445b4b87f8a5abdb2421f40b59b4ca437c4346af0f28179780d604094eb64546bee2019d903d01c6c19bdb
@@ -7646,13 +7410,6 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     which-boxed-primitive: "npm:^1.0.2"
   checksum: 81ca2e81134167cc8f75fa79fbcc8a94379d6c61de67090986a2273850989dd3bae8440c163121b77434b68263e34787a675cbdcb34bb2f764c6b9c843a11b66
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
   languageName: node
   linkType: hard
 
