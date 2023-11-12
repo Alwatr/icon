@@ -28,9 +28,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@alwatr/icon-set-alwatr@workspace:packages/icon-set-alwatr":
+"@alwatr/icon-set-extra@workspace:packages/icon-set-extra":
   version: 0.0.0-use.local
-  resolution: "@alwatr/icon-set-alwatr@workspace:packages/icon-set-alwatr"
+  resolution: "@alwatr/icon-set-extra@workspace:packages/icon-set-extra"
   languageName: unknown
   linkType: soft
 
