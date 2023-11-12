@@ -16,7 +16,7 @@ yarn add --dev @alwatr/icon-set-ionic
 
 ## Usage
 
-  TODO: ...
+TODO: ...
 
 ## License
 

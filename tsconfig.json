@@ -15,9 +15,7 @@
   "files": [],
   "exclude": [],
   "references": [
-    // packages
-    {"path": "./packages/icon"},
-    // demo
-    {"path": "./demo"}
+    // {"path": "./packages/icon"},
+    // {"path": "./demo"}
   ]
 }

@@ -7,4 +7,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **icon-set-ionic:** export svg type ([39dde53](https://github.com/AliMD/alwatr-icon/commit/39dde532468dd3792dcaa127c9dc638ba6bc9c29)) by @njfamirm
+- **icon-set-ionic:** export svg type ([39dde53](https://github.com/AliMD/alwatr-icon/commit/39dde532468dd3792dcaa127c9dc638ba6bc9c29)) by @njfamirm

@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr-icon",
+    "url": "https://github.com/Alwatr/icon",
     "directory": "packages/icon-set-material"
   },
-  "homepage": "https://github.com/AliMD/alwatr-icon/tree/next/packages/icon-set-material#readme",
+  "homepage": "https://github.com/Alwatr/icon/tree/next/packages/icon-set-material#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/alwatr-icon/issues"
+    "url": "https://github.com/Alwatr/icon/issues"
   }
 }

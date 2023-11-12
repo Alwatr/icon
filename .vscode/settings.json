@@ -1,6 +1,5 @@
 {
   "npm.packageManager": "yarn",
-  "lit-plugin.strict": true,
   "editor.wordWrapColumn": 120,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
@@ -21,16 +20,18 @@
     "*.njk": "html",
     "ssh-config": "ssh_config"
   },
-  "markdownlint.ignore": [
-    "**/CHANGELOG.md"
-  ],
+  "markdownlint.ignore": ["**/CHANGELOG.md"],
   "cSpell.language": "en,fa,fa-IR",
-  "cSpell.words": [
-    "Alwatr",
-    "Fract"
-  ],
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": ["Alwatr"],
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "git.autoStash": true,
   "git.branchProtection": ["main", "next"],
-  "githubPullRequests.ignoredPullRequestBranches": ["main", "next"]
+  "githubPullRequests.ignoredPullRequestBranches": ["main", "next"],
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

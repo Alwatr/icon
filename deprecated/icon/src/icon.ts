@@ -10,16 +10,13 @@ import {
   nothing,
   type HTMLTemplateResult,
 } from '@alwatr/element';
-import {globalAlwatr} from '@alwatr/logger';
+import {definePackage} from '@alwatr/logger';
 
 import {preloadIcon} from './preload.js';
 
 export {preloadIcon};
 
-globalAlwatr.registeredList.push({
-  name: '@alwatr/icon',
-  version: _ALWATR_VERSION_,
-});
+definePackage('icon', '1.x');
 
 declare global {
   interface HTMLElementTagNameMap {
