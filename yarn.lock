@@ -80,6 +80,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@alwatr/icon-set-alwatr@workspace:packages/icon-set-alwatr":
+  version: 0.0.0-use.local
+  resolution: "@alwatr/icon-set-alwatr@workspace:packages/icon-set-alwatr"
+  languageName: unknown
+  linkType: soft
+
 "@alwatr/icon-set-ionic@workspace:packages/icon-set-ionic":
   version: 0.0.0-use.local
   resolution: "@alwatr/icon-set-ionic@workspace:packages/icon-set-ionic"

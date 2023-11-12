@@ -1,7 +1,7 @@
 {
-  "name": "@alwatr/icon-set-ionic",
-  "version": "0.1.0",
-  "description": "Premium hand-crafted icons built by Ionic optimized by Alwatr.",
+  "name": "@alwatr/icon-set-alwatr",
+  "version": "0.0.0",
+  "description": "Alwatr custom icon set.",
   "keywords": [
     "icon",
     "icons",
@@ -27,9 +27,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Alwatr/icon",
-    "directory": "packages/icon-set-ionic"
+    "directory": "packages/icon-set-alwatr"
   },
-  "homepage": "https://github.com/Alwatr/icon/tree/next/packages/icon-set-ionic#readme",
+  "homepage": "https://github.com/Alwatr/icon/tree/next/packages/icon-set-alwatr#readme",
   "bugs": {
     "url": "https://github.com/Alwatr/icon/issues"
   }
