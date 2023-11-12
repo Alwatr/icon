@@ -3,14 +3,8 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.2.0](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-ionic@0.1.0...@alwatr/icon-set-ionic@0.2.0) (2023-11-12)
+# 0.1.0 (2023-11-12)
 
 ### Features
 
 * **icon-set-alwatr:** new package ([d28b98d](https://github.com/Alwatr/icon/commit/d28b98dc46c4395fed14e8882aaa36d7b5b1a662)) by @njfamirm
-
-# 0.1.0 (2023-09-24)
-
-### Bug Fixes
-
-- **icon-set-ionic:** export svg type ([39dde53](https://github.com/Alwatr/icon/commit/39dde532468dd3792dcaa127c9dc638ba6bc9c29)) by @njfamirm
