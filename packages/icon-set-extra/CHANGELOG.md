@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-extra@0.3.1...@alwatr/icon-set-extra@0.4.0) (2023-11-14)
+
+### Features
+
+* **extra:** logo-gap ([086acbb](https://github.com/Alwatr/icon/commit/086acbb58759c69adcce9e7a4e63761bebc094bc)) by @
+
 ## [0.3.1](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-extra@0.3.0...@alwatr/icon-set-extra@0.3.1) (2023-11-14)
 
 ### Performance Improvements
