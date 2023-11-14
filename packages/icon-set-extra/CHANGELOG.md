@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-extra@0.3.0...@alwatr/icon-set-extra@0.3.1) (2023-11-14)
+
+### Performance Improvements
+
+* optimize all svgs ([aacdba2](https://github.com/Alwatr/icon/commit/aacdba2c90fa57ad644f8608808a0513a7f4ea3e)) by @AliMD
+
 # [0.3.0](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-extra@0.2.0...@alwatr/icon-set-extra@0.3.0) (2023-11-14)
 
 ### Bug Fixes

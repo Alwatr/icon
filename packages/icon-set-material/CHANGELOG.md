@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-material@2.0.0...@alwatr/icon-set-material@2.0.1) (2023-11-14)
+
+### Bug Fixes
+
+* **material:** cleanup all size attrib ([40f38e7](https://github.com/Alwatr/icon/commit/40f38e79e400e9aae517881bf2c8872937957ced)) by @AliMD
+
+### Performance Improvements
+
+* optimize all svgs ([aacdba2](https://github.com/Alwatr/icon/commit/aacdba2c90fa57ad644f8608808a0513a7f4ea3e)) by @AliMD
+
 # [2.0.0](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-material@1.1.0...@alwatr/icon-set-material@2.0.0) (2023-11-13)
 
 ### Code Refactoring
