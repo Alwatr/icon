@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-extra@0.2.0...@alwatr/icon-set-extra@0.3.0) (2023-11-14)
+
+### Bug Fixes
+
+* **extra:** amazing icon syntax ([090f47a](https://github.com/Alwatr/icon/commit/090f47ad5f366fda58672417b94ea18c04f502af)) by @AliMD
+* **extra:** cleanup ([167bca2](https://github.com/Alwatr/icon/commit/167bca21f899d7f818f457a2af3ccf9674485eb3)) by @AliMD
+* **extra:** optimize ([29105c6](https://github.com/Alwatr/icon/commit/29105c6b1f89254c3a7a105f573806b116bc848e)) by @AliMD
+* **extra:** rollback icons ([79710e5](https://github.com/Alwatr/icon/commit/79710e571edc7c55bea1922daf67938c3d60afbf)) by @AliMD
+* **extra:** viewbox issue ([3d8b128](https://github.com/Alwatr/icon/commit/3d8b1283eeaf2c74d82ebf67a40667349af8debc)) by @AliMD
+
+### Features
+
+* **icon-set-extra:** add some icon ([019f9f2](https://github.com/Alwatr/icon/commit/019f9f2b74be6d79b5f471ab952be99cead50f4a)) by @AbolfazlRasoulizade
+* **icon-set-extra:** add some icon in social and market category ([190a9fc](https://github.com/Alwatr/icon/commit/190a9fc27ca29032e6715577d191d05204c97811)) by @AbolfazlRasoulizade
+
 # [0.2.0](https://github.com/Alwatr/icon/compare/@alwatr/icon-set-extra@0.1.0...@alwatr/icon-set-extra@0.2.0) (2023-11-13)
 
 ### Code Refactoring
