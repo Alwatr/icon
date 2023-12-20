@@ -39,7 +39,7 @@ echo -n 'Icon count: '
 ls -l ${downloadName} | wc -l
 
 mkdir -p svg/outline
-mkdir svg/fill
+mkdir -p svg/fill
 # mkdir svg/round
 # mkdir svg/sharp
 
